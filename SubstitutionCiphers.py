@@ -119,7 +119,7 @@ pprint(cipher)
 
 for ch in cipher:
     assert ch == ch.lower()
-# Decryption finished
+# Decoding finished
 
 for ch in ALPHABET:
     if ch not in m.keys():
@@ -127,3 +127,4 @@ for ch in ALPHABET:
 
 print('Decoder is as follows.')
 print(m)
+print(cipher)
